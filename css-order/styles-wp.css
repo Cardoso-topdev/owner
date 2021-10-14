@@ -1,0 +1,71 @@
+
+/* formidable */
+#frm_form_4_container .frm_form_field.form-field {
+  margin-bottom: 29px;
+}
+#frm_form_4_container .frm_form_field.form-field.frm_html_container {
+  margin-bottom: 0px;
+}
+   
+#frm_form_4_container .frm_form_fields fieldset {
+  min-inline-size: auto;
+}
+/* form main error */
+#frm_form_4_container .frm_error_style{
+  color:#ff0000;
+  margin-bottom:10px;
+}
+/* form field error message */
+#frm_form_4_container .frm_error {
+  color: #ff0000;
+  font-size: 14px;
+}
+/* form sent success message */
+#frm_form_4_container .frm_message p{
+  color:green;
+  font-size: 14px;
+}
+
+.frm_page_num_2 .frm_submit{
+    display: flex;
+}
+.frm_page_num_2 .frm_submit button.frm_prev_page{
+  display: none;
+    width: 40px;
+    text-align: center;
+    padding: 0 40px;
+    margin-right: 20px;
+    background-color: #BEBEBE;
+    border-color: #BEBEBE;
+}
+
+._step-1 .step-2-heading,
+._step-1 .step-3-heading,
+._step-2 .step-1-heading,
+._step-2 .step-3-heading,
+._step-3 .step-1-heading,
+._step-3 .step-2-heading{
+  display: none
+}
+/* stripe style*/
+#frm_form_4_container iframe .ElementsApp .InputElement {
+    color: #555555;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    border: 1px solid #ccc;
+    padding: 20px 5px;
+    border-radius: 5px;
+}
+
+#frm_form_4_container .frm_form_field.form-field {
+}
+@media (max-width: 767px){
+  .frm_page_num_2 .frm_submit{
+      display: block;
+  }
+  .frm_page_num_2 .frm_submit button.frm_prev_page{
+    width: 100%;
+    margin-bottom: 29px
+  }
+}

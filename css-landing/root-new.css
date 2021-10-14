@@ -1,0 +1,98 @@
+:root {
+	--bg-body:#fafafa;
+	--rem-base:10px;
+	--font-size-base:20px;
+	--line-height-base:1.4;
+	--vertical-rhythm:calc(var(--line-height-base) * 1em);
+	--color-brand:#7a8297;
+	--color-brand-dark:#565d6e;
+	--color-brand-light:#a5aab9;
+	--color-secondary:#151517;
+	--color-three:#14181e;
+	--base-text-color:#7a8297;
+	--base-link-color:#00b1ff;
+	--dark-blue:#006dff;
+	--base-link-gradient:linear-gradient(75.2deg, #00b1ff 3.18%, #006dff 94.07%);
+	--h1-h6-color:var(--color-secondary);
+	--bg-gradient-blue:linear-gradient(to right, rgba(0,170,255,1) 0%,rgba(0,113,255,1) 100%);
+	--animation-duration:.3s;
+	--animation-timing-function:ease;
+	--input-x:20px;
+	--gutter:20px;
+	--grid-gutter:3rem;
+	--mb-grid:0px;
+	--input-color:#4b4a4a;
+	--input-placeholder-color:#7a8297;
+	--input-bg-color:white;
+	--input-radius:3px;
+	--input-border-color:#eee;
+	--input-focus-border-color:#cdcdcd;
+	--form-theme-color:#7a8297;
+	--checkbox-size:18px;
+	--radio-size:18px;
+	--label-fz:13px;
+	--label-color:#4b4a4a;
+	--error-color:#e04562;
+	--error-bg-color:#fadee3;
+	--form-col-gutter:15px;
+	--form-row-margin:22.5px;
+	--h1:7.5rem;
+	--h2:4.2rem;
+	--h3:3.5rem;
+	--h4:2.6rem;
+	--h5:20px;
+	--h6:18px;
+	--btn-y:19px;
+	--btn-x:25px;
+	--btn-b:1px;
+	--btn-r:8px;
+	--btn-fz:21px;
+	--btn-md-y:10px;
+	--btn-md-x:25px;
+	--btn-md-b:3px;
+	--btn-md-r:8px;
+	--btn-md-fz:17px;
+}
+
+@media (min-width:812px) and (max-height:414px) and (orientation:landscape) {
+	:root {
+		--gutter:50px;
+	}
+}
+
+@media (max-width:768px) {
+	:root {
+		--h1:56px;
+		--h2:23px;
+		--h3:35px;
+		--h4:18px;
+		--h5:20px;
+		--h6:18px;
+	}
+}
+
+@media (max-width:767px) {
+	:root {
+		--h1:44px;
+		--h2:23px;
+		--h3:35px;
+		--h4:18px;
+		--h5:20px;
+		--h6:18px;
+	}
+}
+
+@media (max-width:667px) {
+	:root {
+		--btn-y:17px;
+		--btn-x:14px;
+		--btn-b:1px;
+		--btn-r:10px;
+		--btn-fz:19px;
+		--btn-md-y:17px;
+		--btn-md-x:14px;
+		--btn-md-b:1px;
+		--btn-md-r:10px;
+		--btn-md-fz:18px;
+	}
+}
